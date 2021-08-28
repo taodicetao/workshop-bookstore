@@ -1,13 +1,22 @@
 package demo;
 
+import java.util.List;
+
 public class Basket {
     private int id;
     private String detail;
     private int quantity;
     private int discount;
     private int total;
+    private List<Book> books;
+    private Customer customer;
 
-    public Basket() {
+    public Basket(Customer customer) {
+        this.customer = customer;
+    }
+
+    public void addBook() {
+
     }
 
     public int getId() {

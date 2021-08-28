@@ -31,4 +31,7 @@ public class Discount {
     public void setDiscountPercentage(int discountPercentage) {
         this.discountPercentage = discountPercentage;
     }
+
+    public void calculate(Basket basket) {
+    }
 }
